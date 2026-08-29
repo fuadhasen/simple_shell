@@ -4,7 +4,7 @@
  * custom_strdup - Duplicates a string.
  * @source: The string to be duplicated.
  * 
- * Return: A pointer to the duplicated string, or NULL if memory allocation fails.
+ * Return: A pointer to the duplicated string, or NULL if the memory allocation fails.
  */
 char *_strdup(const char *source)
 {
