@@ -4,9 +4,10 @@
 #include "main.h"
 
 /**
- * env - function env
+  * env - Prints the current environment variables.
  *
- * Return: void
+ * Iterates through the process environment and prints
+ * each environment variable to standard output.
  */
 
 void env(void) 

@@ -8,6 +8,7 @@
 #include <fcntl.h>
 #include <sys/types.h>
 #include <string.h>
+#include <stdarg.h>
 
 extern char **environ;
 char *_getenv(const char *name);

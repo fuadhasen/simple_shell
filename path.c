@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
+ * path - Finds the executable path of a command.
+ * @buf: Command name to search for.
  *
+ * Searches the directories listed in the PATH environment
+ * variable and returns the full path of the executable.
  *
- *
- *
+ * Return: Full executable path if found, otherwise NULL.
  */
 
 char *path(char *buf)

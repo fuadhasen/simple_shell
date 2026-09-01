@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
+ * excute_command - Executes a command using a child process.
+ * @buf: Path to the executable command.
+ * @av: Command-line arguments passed to the shell.
  *
- *
- *
+ * Creates a child process with fork(), executes the command
+ * using execve(), and waits for the child process to finish.
  */
 
 void excute_command_args(char *buf, char *av[])
@@ -28,7 +31,7 @@ void excute_command_args(char *buf, char *av[])
 	}
 	if (child == 0)
 	{
-		if (execve(arg[0], arg, NULL) == -1)
+		if (execve(arg[0], arg, environ) == -1)
 		{
 			_printf("%s: No such file or directory\n", av[0]);
 			exit(EXIT_FAILURE);

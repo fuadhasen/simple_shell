@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
+ * run_shell - Runs the main loop of the Simple Shell.
+ * @ac: Number of command-line arguments.
+ * @av: Array of command-line arguments.
  *
- *
- *
+ * Displays the prompt, reads user input, handles built-in
+ * commands, and executes external commands until the shell exits.
  */
 
 void run_shell(int ac, char *av[])

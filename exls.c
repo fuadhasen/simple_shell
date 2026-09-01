@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
+ * excutels_l - Resolves a command with arguments using PATH.
+ * @buf: Command and arguments entered by the user.
  *
+ * Separates the command from its arguments, searches PATH for
+ * the executable, and returns the resolved command with its arguments.
  *
- *
- *
+ * Return: Resolved command with arguments, or NULL if not found.
  */
 
 char *excutels_l(char *buf)

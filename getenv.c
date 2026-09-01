@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
+ * _getenv - Retrieves an environment variable.
+ * @name: Name of the environment variable to search for.
  *
+ * Searches the process environment for a variable matching
+ * the specified name.
  *
- *
- *
+ * Return: The variable's value, or NULL if it does not exist.
  */
 
 char* _getenv(const char* name) {

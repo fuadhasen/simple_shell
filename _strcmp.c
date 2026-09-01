@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
+* _strcmp - compare the string
+ * @str1: string one
+ * @str2: string two
  *
- *
- *
- *
+ * Return: True or False
  */
 
 int _strcmp(const char* str1, const char* str2)

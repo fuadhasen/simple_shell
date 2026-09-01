@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
+ * execute_command_or_args - Resolves and executes a shell command.
+ * @buffer: Command entered by the user.
+ * @av: Program command-line arguments.
  *
- *
- *
+ * Handles commands given as absolute paths or resolves commands
+ * through PATH before executing them with or without arguments.
  */
 
 void execute_command_or_args(char *buffer, char *av[])
